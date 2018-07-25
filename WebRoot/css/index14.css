@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 1700px;
+    margin:auto;
+}
+.nav{
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #ED5A65;
+	}
+.header{
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-bottom:4%;
+	margin-top: 60px;
+	}
+.main{
+	height: 700px;
+	width: 90%;
+	font-family: "微软雅黑";
+	margin:auto;
+	}
+.picture{
+	height: 700px;
+	width: 40%;
+	background-color: #000;
+	float: left;
+	background-image: url(../image/first_news.jpg);
+	}
+.text{
+	height: 670px;
+	width: 58%;
+	background-color: #FF0;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	padding: 1%;
+	}
+	
+	

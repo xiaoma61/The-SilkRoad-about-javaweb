@@ -1,0 +1,41 @@
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 100%;
+	height: 1700px;
+/*	margin-top: -2%;*/ 
+}
+.nav{
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #FFF;
+	}
+.header{
+	background-color: #fff;
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 1vw;
+	padding-bottom: 3%;
+	margin-top: 60px;
+	}
+.main{
+	height: 0;
+	width: 35%;
+	height: 100%;
+	font-family: "微软雅黑";
+	font-size:22px;
+	background-color: #fff;
+	line-height: 100%;
+	padding-top: 5%;
+	padding-right: 30%;
+	padding-bottom: 5%;
+	padding-left: 35%;
+	}

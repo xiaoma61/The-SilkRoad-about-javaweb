@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 1700px;
+	
+/*	margin-top: -2%;*/ 
+    margin:auto;
+}
+.nav{
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #C04851;
+	}
+.header{
+	background-color: #fff;
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-bottom: 3%;
+	margin-top: 60px;
+	}
+.top{
+	width:1400px;
+	height:130px;
+	margin:auto;
+	text-align: center;
+}
+
+.content{
+	width:1550px;
+	margin:auto;
+	padding-left:0;
+	padding-right:0;
+	padding-top:50px;
+	
+	}
+
+.content-top{
+	width:1550px;
+	height:370px;
+	margin0;
+	padding:0;
+	margin-bottom:0;
+	
+	float:left;
+	}
+.content-mid{
+	width:1550px;
+	height:370px;
+	padding:0;
+	margin:0;
+	
+	float:left;}
+.content-bot{
+	width:1550px;
+	height:370px;
+	padding:0;
+	margin:0;
+	
+	float:left;}
+.content-one1{
+	width:1000px;
+	height:370px;
+	margin:0;
+	background-color: #900;
+	overflow:hidden;
+	float:left;
+	
+}
+.content-two1{
+	width:545px;
+	height:370px;
+	margin:0;
+	background-color:#Ffff;
+	overflow:hidden;
+	float:left;
+	background-image: url(../image/gd.jpg);
+}
+.content-one2{
+	width:1000px;
+	height:370px;
+	margin:0;
+	background-color:#ffff;
+	overflow:hidden;
+	float:left;
+	background-image: url(../png/VCG4179471820.png);
+}
+.content-two2{
+	width:545px;
+	height:370px;
+	margin:0;
+	background-color: #CCC;
+	overflow:hidden;
+	float:left;
+	
+}
+.text{
+	width:80%;
+	height:80%;
+	margin:auto;
+	line-height:30px;
+	}
+.content-one3{
+	width:1000px;
+	height:370px;
+	margin:0;
+	background-color:#Ffff;
+	
+	float:left;
+	background-image: url(../png/VCG4181478206.png);
+	overflow:hidden;
+}
+.content-two3{
+	width:545px;
+	height:370px;
+	margin:0;
+	background-color: #CCC;
+	overflow:hidden;
+	float:left;
+}
+#rotate{
+		width:50px;
+		height:50px;
+		float:left;
+		z-index:10;
+		}
+#rotate1{
+		width:50px;
+		height:50px;
+		float:left;
+		z-index:10;
+		}
+#rotate2{
+		width:50px;
+		height:50px;
+		float:left;
+		z-index:10;
+		}
+

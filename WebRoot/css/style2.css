@@ -1,0 +1,46 @@
+[genuitec-file-id="wc1-61"],[genuitec-lp-path="/TheSlikRoad/WebRoot/css/style2.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+* {box-sizing: border-box;}
+body{margin: 0;}
+.d5
+{
+  width: 300px;
+  position:absolute;
+  top:0px;
+}
+div.search {padding: 30px 0}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}.d5 input, .d5 button {
+  outline: none;
+  background: transparent;
+}
+.d5 input {
+  width: 300px;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #e14d1d;
+}
+.d5 button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position:absolute;
+  right:0px;
+  top:0px;
+
+  cursor: pointer;
+}
+.d5 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #f8bc29;
+}
+.d5 input:focus {
+  border-color: #311c24
+}

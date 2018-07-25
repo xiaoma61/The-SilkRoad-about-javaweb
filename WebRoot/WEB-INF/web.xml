@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>TheSilkRoad</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>theslikroad</servlet-name>
+  <servlet-class>cn.theslikroad.checkserlvlet.checkservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>theslikroad</servlet-name>  
+   <url-pattern>/theslikroad/checkservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>login</servlet-name>
+  <servlet-class>cn.theslikroad.checkserlvlet.Loginserlvet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>login</servlet-name>
+  <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>greate</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.SendMsg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>greate</servlet-name>
+  <url-pattern>/UserMsg</url-pattern>
+  </servlet-mapping>
+   
+  
+  <servlet>
+  <servlet-name>sendpic</servlet-name>
+  <servlet-class>cn.theslikroad.GetFile.GetFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>sendpic</servlet-name>
+  <url-pattern>/GetMyFile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>findLoad</servlet-name>
+  <servlet-class>cn.theslikroad.findImage.FindSearoad</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>findLoad</servlet-name>
+  <url-pattern>/findLoadMsg</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>TribuneGettitle</servlet-name>a
+  <servlet-class>cn.theslikroad.tribune.servlet.GetTitle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>TribuneGettitle</servlet-name>
+  <url-pattern>/Gettitle</url-pattern>
+  </servlet-mapping>
+  
+  
+ <servlet>
+  <servlet-name>BgImage</servlet-name>
+  <servlet-class>cn.theslikroad.background.BackgroundImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BgImage</servlet-name>
+  <url-pattern>/BgImage</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  <servlet-name>BgImagecollect</servlet-name>
+  <servlet-class>cn.theslikroad.background.BGImageCollection</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BgImagecollect</servlet-name>
+  <url-pattern>/BgImagecollect</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+  <servlet-name>Literactruecollect</servlet-name>
+  <servlet-class>cn.theslikroad.literature.Literature</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Literactruecollect</servlet-name>
+  <url-pattern>/Literactorcollect</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+  <servlet-name>LiteractrueMsg</servlet-name>
+  <servlet-class>cn.theslikroad.literature.GetFileMsg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LiteractrueMsg</servlet-name>
+  <url-pattern>/LiteractrueMsg</url-pattern>
+  </servlet-mapping> 
+
+
+ <servlet>
+  <servlet-name>LiteractrueUserPage</servlet-name>
+  <servlet-class>cn.theslikroad.literature.Readering</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LiteractrueUserPage</servlet-name>
+  <url-pattern>/Readering</url-pattern>
+  </servlet-mapping> 
+  
+ 
+ <servlet>
+  <servlet-name>commentPage</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.comment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>commentPage</servlet-name>
+  <url-pattern>/Comment</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  <servlet-name>PostcommentPage</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.Post_GetTitle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PostcommentPage</servlet-name>
+  <url-pattern>/Post_GetTitle</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  <servlet-name>BgImageurlcollection</servlet-name>
+  <servlet-class>cn.theslikroad.background.BgImageurlcollection</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BgImageurlcollection</servlet-name>
+  <url-pattern>/BgImageurlcollection</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Childvistors</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.childvistors</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Childvistors</servlet-name>
+  <url-pattern>/Childvistors</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Collection</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.Collection</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Collection</servlet-name>
+  <url-pattern>/Collection</url-pattern>
+  </servlet-mapping>
+  
+
+
+  <servlet>
+  <servlet-name> SetFromid</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.SetFromid</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SetFromid</servlet-name>
+  <url-pattern>/SetFromid</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>ImageSend</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.ImageSend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ImageSend</servlet-name>
+  <url-pattern>/ImageSend</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  <servlet-name>BgImagesend</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.BgImagesend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BgImagesend</servlet-name>
+  <url-pattern>/BgImagesend</url-pattern>
+  </servlet-mapping>
+
+
+
+<servlet>
+  <servlet-name>deleteBg</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.deleteBg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deleteBg</servlet-name>
+  <url-pattern>/deleteBg</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>deleteColletion</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.deleteColletion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deleteColletion</servlet-name>
+  <url-pattern>/deleteColletion</url-pattern>
+  </servlet-mapping>
+
+
+
+<servlet>
+  <servlet-name>deleteBrower</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.deleteBrower</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deleteBrower</servlet-name>
+  <url-pattern>/deleteBrower</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>deletetalking</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.deletetalking</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deletetalking</servlet-name>
+  <url-pattern>/deletetalking</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>ChangeName</servlet-name>
+  <servlet-class>cn.theslikroad.personal.servlet.ChangeName</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ChangeName</servlet-name>
+  <url-pattern>/ChangeName</url-pattern>
+  </servlet-mapping>
+  
+    
+  <servlet>
+  <servlet-name>keywordServlet</servlet-name>
+  <servlet-class>cn.theslikeroad.seekword.servlet.keywordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>keywordServlet</servlet-name>
+  <url-pattern>/keywordServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>IndexCode</servlet-name>
+  <servlet-class>cn.theslikeroad.index.servlet.IndexCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>IndexCode</servlet-name>
+  <url-pattern>/IndexCode</url-pattern>
+  </servlet-mapping>
+  
+  
+   
+  <servlet>
+  <servlet-name>IndexCodeCheck</servlet-name>
+  <servlet-class>cn.theslikeroad.index.servlet.IndexCodeCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>IndexCodeCheck</servlet-name>
+  <url-pattern>/IndexCodeCheck</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+  <servlet-name>Refreshservlet</servlet-name>
+  <servlet-class>cn.theslikeroad.refresh.servlet.Refreshservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Refreshservlet</servlet-name>
+  <url-pattern>/Refreshservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Replyservlet</servlet-name>
+  <servlet-class>cn.theslikroad.tribune.servlet.Replyservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Replyservlet</servlet-name>
+  <url-pattern>/Replyservlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

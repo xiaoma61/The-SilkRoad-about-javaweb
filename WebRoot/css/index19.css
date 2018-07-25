@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 1700px;
+    margin:auto;
+}
+.nav{
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #FFF;
+	}
+.header{
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-bottom:4%;
+	margin-top: 60px;
+	}
+.main{
+	width: 80%;
+	height: 1000px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	}
+.main-title{
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-top: 5%;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 50px;
+	}
+.content{
+	height: 900px;
+	width: 80%;
+	font-family: "微软雅黑";
+	position: absolute;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

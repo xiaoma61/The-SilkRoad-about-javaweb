@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 100%;
+    margin:auto;
+}
+.nav{
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #6c070f;
+	
+	}
+ .top
+        {
+            width: 3%;
+            height: 100px;
+            background-color: #1b6d85;
+            position: fixed;
+            top: 80%;
+            right: 0px;
+
+}
+.header{
+	height: 0;
+	width: 50%;
+	font-family: "微软雅黑";
+	padding-bottom:3%;
+	margin-top: 60px;
+
+	}
+.main_contents{
+	width:100%;
+	padding-top:3%;
+	/* margin-top:6%; */
+	background-color:#AEEEEE;
+	
+	}
+.main{
+	width: 60%;
+	margin-bottom: 30px;
+	margin-left:20%;
+	border: 1px solid #A8A8A8;
+	z-index: 1;
+	background-color:#F0FFFF;
+
+/*	overflow: scroll;*/
+	}	
+.post{
+	
+	width: 60%;
+	padding-bottom: 1%;
+	margin-left:25%;
+	border: 1px solid #A8A8A8;
+	position: absolute;
+	top:0px;
+   
+	}
+.topicall
+{
+	margin-top:4%;
+	width:100%;
+	position: relative;
+	margin-bottom:10%;
+	
+	
+}
+.pic
+{
+	position: relative;
+	left:5%;
+	width:20%;
+	height:20%;
+	color:black;
+	
+}
+.topic{
+	color:black;
+	font-size:20px;
+
+	
+}
+
+
+._title{
+	position: relative;
+	width: 50%;
+	margin-top: 1%;
+	height:40px;
+	left:5%;
+
+		}
+._content{
+	position: relative;
+    width: 50%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	height:125px;
+	left:5%;
+
+
+
+	}
+.title1
+{
+	position: relative;
+	left:5%;
+	
+}
+.publish
+{
+	width:80%;
+	margin-left: 10%;
+
+
+}
+.submit{
+	width: 5%;
+	margin-top: 1%;
+	height:30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom:5%;
+}
+
+.page{
+	width:100%;
+	height:30px;
+	margin:0px;
+	padding-left:0;
+	padding-right:0;	
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+	}
+#topicnum
+{
+
+	
+
+}
+  .page .img-page{
+  font-size: 0;
+  }
+  .page a.selected{
+  background-color: #F4E1AB;
+  }
+  .page a{
+  font-size: 14px;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #ED8546;
+  margin: 0 5px;
+  
+  }

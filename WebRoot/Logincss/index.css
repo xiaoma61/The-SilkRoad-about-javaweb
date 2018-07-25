@@ -1,0 +1,128 @@
+@charset "utf-8";
+.wrap{
+	position: relative;
+	/* left:50%;*/
+  /*  margin:0 0 0 -440px;*/
+	width: 100%;
+	height: 100px;
+	margin-top: -2%; /*   border:1px solid red;*/
+}
+.nav{
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 101;
+	font-size:1vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	}
+
+.header{
+	background-color: #F30;
+	/*	width: 100%;
+	height: 100%;*/
+	z-index: 100;
+	height: 0;
+	width: 100%;
+	padding-bottom: 50%;
+	}
+.main{
+	height: 0;
+	width: 100%;
+	padding-bottom: 50%;
+	padding-top: 4%;
+	padding-right: 2%;
+	padding-left: 2%;
+	}
+.main-left{
+/*	height: 800px;*/
+/*	width: 47%;*/
+	float: left;
+	background-color: #CCC;
+	padding-left: 2%;
+	margin-right: 1%;
+	height:0;
+    width:52%;
+    padding-bottom:47%
+	}
+.main-right_top{
+	float: left;
+	background-color: #F30;
+	margin-left: 1%;
+	height: 0;
+	width: 40%;
+	padding-bottom: 13%
+	}
+
+.main-right_bottom{
+	background-color: #000;
+	height: 0;
+	width: 40%;
+	padding-bottom: 32%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 2%;
+	}
+
+.content{
+	height: 0;
+	width: 100%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 29%;
+	}
+.content_left{
+	float: left;
+	background-color: #000;
+	padding-left: 2%;
+	margin-right: 1%;
+	height: 0;
+	width: 20%;
+	padding-bottom: 25%;
+	margin-top: 1%;
+	}
+.content-right{
+	float: left;
+	background-color: #CCC;
+	margin-left: 1%;
+	height: 0;
+	width: 72%;
+	padding-bottom: 25%;
+	margin-top: 1%;
+	}
+.content2{
+	height: 0;
+	width: 100%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 30%;
+	}
+.content_left2{
+	float: left;
+	background-color: #CCC;
+	padding-left: 2%;
+	margin-right: 1%;
+	height: 0;
+	width: 72%;
+	padding-bottom: 25%;
+	margin-top: 1%;	
+	}
+.content-right2{
+    float: left;
+	background-color: #000;
+	margin-left: 1%;
+	height: 0;
+	width: 20%;
+	padding-bottom: 25%;
+	margin-top: 1%;
+	}
+.footer{
+	background-color: #F30;
+	height: 0;
+	width: 100%;
+	padding-bottom: 10%;
+	}

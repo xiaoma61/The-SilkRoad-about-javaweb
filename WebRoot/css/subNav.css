@@ -1,0 +1,22 @@
+
+
+@CHARSET "UTF-8";
+* { margin: 0; padding: 0;  text-decoration: none;}
+a { color: #fff; text-decoration: none; }
+a:hover {color: #F30} 
+ul{ padding-left:8%;list-style: none;width:100%; }
+.nav li { float: left; position:relative; height:50px; width:12%;text-align: center; }
+.nav li a { display: block; height: 50px; text-align: center; line-height: 50px; width:100%;margin-left: 1px; color: #ffac00;text-decoration: none;}
+.subNav{ position:absolute; top:100%; left:0; width:100%; height:0; overflow:hidden;margin:0px;padding:0px;}
+.subNav li{width:100%;text-align: center; }
+.subNav li a{ background:#5A191B;color:#efefef;}
+.subNav li a:hover{ background:#c04851;color:#FFD111; }
+.nav  .person{
+	position:absolute;
+	right:5%;
+	width:11%;
+}
+.nav  .person a
+{
+	width:100%;
+}

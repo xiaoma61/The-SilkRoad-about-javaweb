@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 100%;
+    margin:auto;
+} 
+.nav{
+	opacity: 1;
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #630f0db8;
+	}
+.header{
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-bottom:4%;
+	margin-top: 60px;
+	}
+.main{
+	width: 100%;
+	}
+.museum_introduce
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+
+}
+.display_img
+{
+	float: left;
+	padding-top: 2%;
+}
+.display_img p
+{
+	color: #b4b27e;
+}
+.introduce p
+{
+	text-indent:2em;
+}
+h2
+{
+	text-align: center;
+}
+.tips li
+{
+	margin-bottom: 2%;
+
+}
+.display_img p
+{
+	text-align: center;
+	font-size: 150%;
+
+}
+.comments
+{
+	padding-left: 10%;
+}
+.comments p
+{
+
+	margin-bottom: 2%;
+}
+.introduce
+{
+	/*margin-top: 5%;*/
+	width: 75%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foot
+{
+	width: 100%;
+	height: 100px;
+	margin-top:10%;
+	background: #ae030f;
+	position: relative;
+}
+	
+	
+	
+```````````````````````````````````````````````````

@@ -1,0 +1,60 @@
+
+/* 分类 */
+.cat {width: 100%;margin: 0px 5px;}
+.cat>.cat_header{line-height: 40px;width: 80%;border-bottom: solid 1px #CDCDCD;padding: 6px 0px;}
+.cat>.cat_header>.icon{width: 20px;background-color: #f95732;height: 30px;line-height: 45px;margin: 5px;}
+.cat>.cat_header>.title{font-size: 16px;margin-left: 36px;margin-top: -40px;}
+.cat .cat_button{padding: 16px 0px;width: 80%;}
+.cat .cat_button>button{width: 138px;}
+.cat .cat_main{width: 80%;}
+.cat .cat_main thead>tr>th.center{text-align: center;}
+.cat .cat_main tr>td .fold{width: 25px;height: 25px;text-align: center;vertical-align: middle;border: solid 1px #a8b1f9;padding: 1px 5px;cursor: pointer;margin-top: 5px;}
+.cat .cat_main tr>td .sort_num{width: 56px;text-align: center;vertical-align: middle;padding-bottom: 10px}
+.cat .cat_main tr>td .sort_num input{text-align: center;}
+.cat .cat_main tr>td .name{width: 200px;padding-bottom: 10px}
+.cat .cat_main tr>td .name input{display: inline-block;width: 93px;margin-right: 7px;}
+.cat .cat_main tr>td .name button{height: 33px;margin-top: -5px;}
+.cat .cat_main tr>td .name span.shuxian{display: inline-block;width: 1px;height: 32px;background-color: #ccc;margin-bottom: -10px;}
+.cat .cat_main tr>td .name span.hengxian{display: inline-block;width: 38px;height: 1px;background-color: #ccc;margin: 0px 2px 4px -5px;}
+.cat .cat_main tr>td .is_nav{line-height: 32px;width: 50px;margin-bottom: 10px;border: solid 1px #eee;border-radius: 11px;}
+.cat .cat_main tr>td .operation{margin: 3px 0px 14px 0px}
+/* 分类添加 */
+.cat_add {width: 100%;margin: 0px 5px;}
+.cat_add>.cat_add_header{line-height: 40px;width: 80%;padding: 6px 0px;}
+.cat_add>.cat_add_header>.icon{width:30px;background-color: #e9441e;height: 30px;line-height: 45px;margin: 5px;}
+.cat_add>.cat_add_header>.title{font-size: 13px;margin-left: 36px;margin-top: -40px;}
+.cat_add .cat_add_form{width: 280%;margin: 8px 0  0 45px}
+.cat_add .cat_add_form .form-horizontal label{font-size: 20px;font-weight: 400;font-style: normal;margin-top: 4px;}
+.cat_add .cat_add_form .form-horizontal input.form-control{height: 40px;font-size: 15px;margin-left: -15px;margin-top: 2px;}
+.cat_add .cat_add_form .form-horizontal .star{color: red;margin-left: 10px;line-height: 0px;}
+.cat_add .cat_add_form .form-horizontal .explain{font-size: 15px;color: #999;margin-left: 15px;}
+/* 文章首页 */
+.cat_add>.article_check_box{width: 80%;border: 1px solid #eee;padding: 16px 0px;margin: 0 0px 0 6px;}
+.cat_add .article_check_button{padding: 8px 14px;}
+.cat_add .article_delete{margin: 53px 0 5px 7px;}
+.cat_add .article_main{width: 80%;margin: 3px 0 0 4px;}
+.cat_add .article_main thead>tr>th.center{text-align: center;}
+.cat_add .article_main .table>thead {
+	background-color: #777;
+	background-image: -webkit-linear-gradient(top, #eee 0%, #777 100%);
+	background-image: -khtml-linear-gradient(top, #eee 0%, #777 100%);
+	background-image: -moz-linear-gradient(top, #eee 0%, #777 100%);
+	background-image: -ms-linear-gradient(top, #eee 0%, #777 100%);
+	background-image: -o-linear-gradient(top, #eee 0%, #777 100%);
+	background-image: linear-gradient(top, #eee 0, #777 100%)
+}
+.cat_add .article_main .table {width: 100%;margin-top: -1px;border-collapse: collapse;background-color: #FFF}
+
+.cat_add .article_main .table th,.cat_add .article_main .table td{border: solid 1px #cdcdcd}
+.cat_add .article_main .table tbody tr:nth-child(odd){background-color:#eee }
+.cat_add .article_main .table tbody>tr>td {padding: 6px;vertical-align: middle}
+
+
+
+
+
+
+
+
+
+

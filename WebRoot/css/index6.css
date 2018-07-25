@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+.wrap{
+	position: relative;
+	width: 1700px;
+    margin:auto;
+}
+.nav{
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 5px solid #CCC;
+	font-size: 130%;
+	background-color: #ED5A65;
+	}
+.header{
+	background-color: #fff;
+	height: 0;
+	width: 100%;
+	font-family: "微软雅黑";
+	padding-bottom: 3%;
+	margin-top: 60px;
+	}
+.top{
+	width: 1700px;
+
+	background-color: #F00;
+	margin-bottom: 30px;
+	
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:280px;
+	padding-bottom:30px;
+	z-index:1;
+	background-image:url(../image/game.jpg);
+
+}
+.top-center{
+	width: 1200px;
+	height: 520px;
+	background-color:#FC0;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	z-index:2;
+	background-image:url(../gif/game.gif);
+	
+	
+}
+.search{
+	width:1550px;
+	height:70px;
+	margin:auto;
+	}
+.search1{
+	width:498px;
+	height:70px;
+	margin:auto;
+	float:left;
+	margin-right:28px;
+	}
+.search2{
+	width:498px;
+	height:70px;
+	margin:auto;
+	float:left;
+	margin-right:28px;
+	}
+.search3{
+	width:498px;
+	height:70px;
+	margin:auto;
+	float:left;
+	}
+.content{
+	width:1550px;
+	height:1170px;
+	margin:auto;
+
+	}
+.content-text{
+	width:1550px;
+	height:100px;
+	margin:auto;
+	padding-left:0;
+	padding-right:0;
+	margin-bottom:20px;
+	background:#FF9;
+	/*background-image:url(../image/game2.jpg);*/
+	background-image:url(../gif/game1.gif);
+	}
+.content-top{
+	width:1550px;
+	height:280px;
+	padding:0;
+	margin-bottom:70px;
+	float:left;
+
+	
+	}
+	
+.content-mid{
+	width:1550px;
+	height:280px;
+	padding:0;
+	margin-bottom:70px;
+	float:left;
+
+	}
+.content-bot{
+	width:1550px;
+
+	padding:0;
+	margin:0;
+	float:left;
+	}
+.content-one{
+	width:45%;
+	height:480px;
+	background-color:#F33;
+	float:left;
+	margin-right:10px;
+}
+.content-two{
+	width:45%;
+	height:480px;
+	margin:0;
+	background-color:#FF3;
+	margin-left:100px;
+	float:left;
+
+}
+.content-three{
+	width:498px;
+	height:480px;
+	margin:0;
+	background-color:#000;
+	float:left;
+	}
+.page{
+	width:1550px;
+	height:30px;
+	margin:auto;
+	padding-left:0;
+	padding-right:0;
+	}
